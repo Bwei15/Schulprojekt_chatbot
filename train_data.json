@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "tag": "Begrüßung",
+      "patterns": ["Hallo", "Hi", "Guten Tag", "Moin", "Servus", "Hallo, wie geht's?", "Hey"],
+      "responses": ["Hallo! Wie kann ich Ihnen heute helfen?", "Hi! Schön, Sie zu sehen.", "Guten Tag! Wie kann ich behilflich sein?"]
+    },
+    {
+      "tag": "Verabschiedung",
+      "patterns": ["Tschüss", "Auf Wiedersehen", "Bis bald", "Ciao", "Danke, das war's"],
+      "responses": ["Tschüss! Einen schönen Tag noch!", "Auf Wiedersehen!", "Bis bald!"]
+    },
+    {
+      "tag": "Schulzeiten",
+      "patterns": ["Wann beginnt der Unterricht?", "Wann ist Schulschluss?", "Wie lange geht die Schule?", "Wie sind die Schulzeiten?"],
+      "responses": ["Der Unterricht beginnt um 8:00 Uhr und endet um 15:30 Uhr.", "Unsere Schulzeiten sind von 8:00 Uhr bis 15:30 Uhr."]
+    },
+    {
+      "tag": "Schulferien",
+      "patterns": ["Wann sind die nächsten Ferien?", "Wann haben wir Ferien?", "Wie lange dauern die Sommerferien?", "Wann sind Herbstferien?"],
+      "responses": ["Die nächsten Ferien beginnen am 20. Dezember und enden am 4. Januar.", "Die Sommerferien dauern vom 1. Juli bis zum 31. August."]
+    },
+    {
+      "tag": "Schulgebühren",
+      "patterns": ["Wie hoch sind die Schulgebühren?", "Wie viel kostet die Schule?", "Gibt es Schulgebühren?", "Was kostet der Schulbesuch?"],
+      "responses": ["Die Schulgebühren betragen 3000 Euro pro Jahr.", "Unsere Schulgebühren liegen bei 3000 Euro jährlich, zahlbar in Raten."]
+    },
+    {
+      "tag": "Elternabend",
+      "patterns": ["Wann ist der nächste Elternabend?", "Wann treffen sich die Eltern?", "Ist diese Woche Elternabend?", "Elternabend nächste Woche?"],
+      "responses": ["Der nächste Elternabend findet am 15. März um 18:00 Uhr statt.", "Der Elternabend ist nächsten Donnerstag um 18:00 Uhr."]
+    },
+    {
+      "tag": "Krankmeldung",
+      "patterns": ["Wie melde ich mein Kind krank?", "Was mache ich, wenn mein Kind krank ist?", "Wie funktioniert die Krankmeldung?", "Krankmeldung für Schüler?"],
+      "responses": ["Bitte melden Sie Ihr Kind per E-Mail oder telefonisch vor 8:00 Uhr krank.", "Für Krankmeldungen rufen Sie bitte im Sekretariat an oder schicken eine E-Mail."]
+    },
+    {
+      "tag": "Sprechzeiten",
+      "patterns": ["Wann hat die Schulleitung Sprechzeiten?", "Wie kann ich einen Termin bei der Schulleitung machen?", "Wann kann ich die Schulleitung erreichen?", "Sprechzeiten der Schulleitung?"],
+      "responses": ["Die Sprechzeiten der Schulleitung sind montags und donnerstags von 10:00 bis 12:00 Uhr.", "Für einen Termin bei der Schulleitung wenden Sie sich bitte ans Sekretariat."]
+    },
+    {
+      "tag": "Kontaktinformationen",
+      "patterns": ["Wie erreiche ich die Schule?", "Was ist die Telefonnummer der Schule?", "Wie lautet die E-Mail-Adresse der Schule?", "Kontaktinformationen der Schule?"],
+      "responses": ["Sie erreichen uns unter 030-123456 oder per E-Mail an info@schule.de.", "Unsere Telefonnummer ist 030-123456. Sie können uns auch per E-Mail kontaktieren: info@schule.de."]
+    },
+    {
+      "tag": "Wetter",
+      "patterns": ["Wie ist das Wetter?", "Wie ist das Wetter heute?", "Wird es heute regnen?", "Wettervorhersage für heute?"],
+      "responses": ["Es wird ein schöner Tag mit Sonnenschein.", "Heute ist es bewölkt, aber trocken."]
+    },
+    {
+      "tag": "Feiertage",
+      "patterns": ["Wann ist der nächste Feiertag?", "Wann haben wir frei?", "Gibt es bald einen Feiertag?", "Wann ist der nächste freie Tag?"],
+      "responses": ["Der nächste Feiertag ist der 1. Mai (Tag der Arbeit).", "Am 3. Oktober ist der nächste Feiertag, der Tag der Deutschen Einheit."]
+    },
+    {
+      "tag": "Sportfest",
+      "patterns": ["Wann ist das nächste Sportfest?", "Wann findet das Sportfest statt?", "Gibt es ein Sportfest dieses Jahr?", "Sportfest der Schule?"],
+      "responses": ["Das Sportfest findet am 20. Juni auf dem Schulgelände statt.", "Das nächste Sportfest ist am 20. Juni."]
+    },
+    {
+      "tag": "Schuluniform",
+      "patterns": ["Gibt es eine Schuluniform?", "Muss mein Kind eine Uniform tragen?", "Gibt es eine Kleiderordnung?", "Schuluniform Pflicht?"],
+      "responses": ["Nein, an unserer Schule gibt es keine Schuluniform.", "Es gibt keine Pflicht für Schuluniformen, aber angemessene Kleidung ist erwünscht."]
+    },
+    {
+      "tag": "Zeugnisse",
+      "patterns": ["Wann gibt es Zeugnisse?", "Wann ist die Zeugnisausgabe?", "Wie bekomme ich das Zeugnis?", "Wann werden die Zeugnisse verteilt?"],
+      "responses": ["Die Zeugnisausgabe ist am letzten Schultag vor den Sommerferien.", "Die Zeugnisse werden am 25. Juni ausgegeben."]
+    },
+    {
+      "tag": "Schulessen",
+      "patterns": ["Wie melde ich mein Kind zum Mittagessen an?", "Gibt es Schulessen?", "Wie funktioniert die Essensanmeldung?", "Mittagessen an der Schule?"],
+      "responses": ["Das Mittagessen kann über unser Online-Portal bestellt werden.", "Für die Anmeldung zum Schulessen wenden Sie sich bitte an das Sekretariat."]
+    },
+    {
+      "tag": "Stundenplan",
+      "patterns": ["Wann bekomme ich den neuen Stundenplan?", "Wie sieht der Stundenplan aus?", "Kann ich den Stundenplan online sehen?", "Wann wird der Stundenplan verteilt?"],
+      "responses": ["Der neue Stundenplan wird am ersten Schultag verteilt.", "Der Stundenplan ist im Schulportal einsehbar."]
+    },
+    {
+      "tag": "Schulausflug",
+      "patterns": ["Wann ist der nächste Schulausflug?", "Was ist der nächste Schulausflug?", "Gibt es bald einen Schulausflug?", "Schulausflug Termine?"],
+      "responses": ["Der nächste Schulausflug ist am 10. Mai und führt in den Tierpark.", "Am 10. Mai findet ein Schulausflug in den Tierpark statt."]
+    }
+  ]
+}
+
+
+  

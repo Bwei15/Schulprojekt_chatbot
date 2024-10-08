@@ -1,7 +1,7 @@
 # Chatbot mit Hilfe von Bart programmieren
 
 
-### Vorbereitung basic
+### Vorbereitung Basic
 1. Um den Chatbot ausführen zu können muss du Python installieren und diesen Befehl in einem CMD/Konsolen Fenster ausgeführt werden   ``pip install transformers torch scikit-learn matplotlib``
 2. Lade alle Dateien aus dem GitHub herrunter. Dafür ist oben rechts ein Button zu finden.
 3. Entpacke die Herruntergeladene Datei
